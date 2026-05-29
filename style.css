@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: #081120;
     color: white;
 }
@@ -15,6 +15,61 @@ body{
 }
 .navbar{
     padding: 1.5rem 0;
+}
+.hero{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.hero-text{
+    flex: 1;
+}
+.hero-text h1{
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+.hero-text p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #CBD5E1;
+}
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+}
+.hero-image{
+    flex: 1;
+}
+.hero-image img{
+    width: 100%;
+}
+.primary-btn{
+    text-decoration: none;
+    background: #2563EB;
+    color:white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.primary-btn:hover{
+    background: #1D4ED8;
+}
+.secondary-btn{
+    text-decoration: none;
+    color:white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #2563EB;
+}
+.secondary-btn:hover{
+    background: #2563EB;
 }
 .navbar .container{
     display: flex;
