@@ -27,3 +27,5 @@ document.querySelector('.nav-links');
 menuToggle.addEventListener('click',()=>{
     navLinks.classList.toggle('active');
 });
+const copyright = document.getElementById('copyright');
+copyright.innerHTML = `© ${new Date().getFullYear()} NovaTech. All rights reserved.`

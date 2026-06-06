@@ -65,6 +65,7 @@ cd desafio_1-1
 ```
 Run the project using live server or open `index.html` in your browser.
 
+Look in your divece: https://davidson124.github.io/nova-tech-landing/
 ---
 
 ## Future improvements 
